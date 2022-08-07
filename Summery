@@ -1,0 +1,12 @@
+1st: clone the project >> git clone https://github.com/Habib43005/adopt-pets-vue.git
+2nd: install nodejs >> sudo apt install nodejs
+3rd: install npm >> sudo apt install npm
+4th: check version >> nodejs -v :  npm -v 
+5th: There should be a package.jason file which has list of all the dependencies. We need to install all the mentioned version dependencies. so for that we need
+to run command >> npm install
+it will check the package.jason file and install all the dependencies.
+6th: Now check package.jason file on how to start the button.
+7th: to start the project >> npm run serve 
+in place of start there could be anything mentioned in package.jason file
+8th: There will show an error. >>  sudo npm install --save-dev --unsafe-perm node-sass
+9th: go to browser and enter the ipaddress:8080 as it's default port is 8080
